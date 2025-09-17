@@ -21,7 +21,7 @@ public class ToDoList {
             System.out.println("3. Mark Task as Completed");
             System.out.println("4. Delete Task");
             System.out.println("5. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your choice (1-5): ");
             
             int choice = sc.nextInt();
             sc.nextLine(); // consume newline
